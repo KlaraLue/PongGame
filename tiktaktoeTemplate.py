@@ -8,6 +8,7 @@ def print_board(board):
 
 
 def check_winner(board, player):
+    # Check rows
     # TODO 
 
     # Check columns
@@ -22,6 +23,8 @@ def is_full(board):
 
 
 def get_move(player, board):
+    # Ist zahl zwischen 1-9 (achtung Arrays starten bei 0), 
+    # ist dort noch nicht X oder O
     # TODO
 
 
